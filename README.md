@@ -1,8 +1,47 @@
 # Software Stability Index (SSI)
 
-A scientific, data-driven methodology and scoring system for evaluating the **stability, applicability, and learnability** of software development tools — including programming languages, SDKs, frameworks, APIs, and IDEs.
+A scientific, data-driven methodology to score the long-term stability, applicability, and learnability of programming languages, SDKs, frameworks, and development tools.
 
-> “Dependencies rot. Docs decay. APIs break. SSI will help you see it coming.”
+## The Problem: The "Beta-fication" of (Supposedly) Production-Grade Software
+
+In today's fast-paced digital landscape, there is immense pressure to innovate and release new software constantly. This has led to a troubling trend: major software publishers, including tech giants, often release products with known bugs (and an underlying stockpile of technical debt), effectively turning their user base into a distributed, unpaid quality assurance team.
+
+As an article from [GOZmosis](https://gozmosis.blogspot.com/2023/04/tech-giants-and-consumers-role-in.html) points out, this cycle of "rapid, potentially problematic releases" can disrupt workflows, cause productivity loss, and erode trust. Yet, this growing problem is not discussed nearly enough, leaving developers and technical leaders to navigate a volatile ecosystem with very little objective data.
+
+The **Software Stability Index (SSI)** was created to address this gap.
+
+## Our Mission
+
+The goal of SSI is to move beyond marketing hype and anecdotal evidence, providing an objective, quantifiable score for the real-world stability of the tools we use every day.
+
+We aim to:
+
+1.  **Empower Developers & Leaders**: Provide clear, data-driven insights to help them make informed technology choices and assess the risks in their existing stacks.
+2.  **Promote Accountability**: Encourage tool maintainers to prioritize long-term stability, not just feature velocity.
+3.  **Create a New Heuristic**: Establish a transparent, reproducible, and community-driven standard for measuring the health of a software ecosystem.
+
+## How It Works
+
+The SSI is calculated based on three core dimensions, each with several sub-metrics that are scored based on data collected from public APIs, community forums, and code analysis.
+
+-   **Learnability (30%)**: The availability and freshness of high-quality learning resources.
+-   **Applicability (25%)**: The breadth of use cases and the health of the surrounding ecosystem.
+-   **Sustainability (45%)** The long-term viability, dependency stability, and backward compatibility of the technology.
+
+For a detailed breakdown of the metrics, see the `docs/` directory.
+
+## Current Status
+
+The project is currently in **Phase 2: Data Collection**. We have implemented the core scoring logic and initial data fetchers for PyPI, Packagist, and npm.
+
+You can run the proof-of-concept scoring script:
+```bash
+python scoring/compute_ssi.py
+```
+
+## Contributing
+
+This project is meant to evolve. Contributions to add new data sources, refine scoring metrics, or improve automation are welcome. Please see the `DEVELOPMENT_PLAN.md` for our roadmap.
 
 ---
 

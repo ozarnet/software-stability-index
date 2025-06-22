@@ -22,11 +22,11 @@ This file tracks the progress of major development milestones for the Software S
 
 ## Milestone 2: Data Collection - Registries & APIs
 
--   `[ ]` **Module: `fetch-registry-stats`**
-    -   `[ ]` Implement PyPI client to fetch package metadata.
-    -   `[ ]` Implement npm client to fetch package metadata.
-    -   `[ ]` Implement Packagist client to fetch package metadata.
--   `[ ]` **Module: `issue-tracker-scanner`**
+-   `[v]` **Module: `fetch-registry-stats`**
+    -   `[v]` Implement PyPI client to fetch package metadata.
+    -   `[v]` Implement npm client to fetch package metadata.
+    -   `[v]` Implement Packagist client to fetch package metadata.
+-   `[-]` **Module: `issue-tracker-scanner`**
     -   `[ ]` Implement GitHub API client to fetch issue data (backlog, MTTR).
 
 ## Milestone 3: Advanced Analysis Modules
