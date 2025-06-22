@@ -2,6 +2,7 @@
   {
     "name": "React",
     "version_or_year": "2025",
+    "github_repo": "facebook/react",
     "scores": {
       "learnability": 8.5,
       "applicability": 9.0,
@@ -11,6 +12,7 @@
   {
     "name": "Python",
     "version_or_year": "3.12",
+    "github_repo": "python/cpython",
     "scores": {
       "learnability": 9.0,
       "applicability": 9.5,
@@ -29,6 +31,7 @@
   {
     "name": "Laravel",
     "version_or_year": "11",
+    "github_repo": "laravel/framework",
     "scores": {
       "learnability": 8.0,
       "applicability": 8.5,
@@ -38,6 +41,7 @@
   {
     "name": "CodeIgniter",
     "version_or_year": "4.5",
+    "github_repo": "codeigniter4/framework",
     "scores": {
       "learnability": 6.5,
       "applicability": 6.0,
