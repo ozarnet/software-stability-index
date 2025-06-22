@@ -1,0 +1,4 @@
+# This file contains the Python dependencies for the SSI project.
+
+pandas
+requests 
