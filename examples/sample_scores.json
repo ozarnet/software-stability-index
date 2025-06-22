@@ -1,0 +1,56 @@
+[
+  {
+    "name": "React",
+    "version_or_year": "2025",
+    "scores": {
+      "learnability": 8.5,
+      "applicability": 9.0,
+      "sustainability": 4.5
+    }
+  },
+  {
+    "name": "Python",
+    "version_or_year": "3.12",
+    "scores": {
+      "learnability": 9.0,
+      "applicability": 9.5,
+      "sustainability": 6.0
+    }
+  },
+  {
+    "name": "SwiftUI",
+    "version_or_year": "5",
+    "scores": {
+      "learnability": 7.0,
+      "applicability": 8.0,
+      "sustainability": 5.0
+    }
+  },
+  {
+    "name": "Laravel",
+    "version_or_year": "11",
+    "scores": {
+      "learnability": 8.0,
+      "applicability": 8.5,
+      "sustainability": 6.2
+    }
+  },
+  {
+    "name": "CodeIgniter",
+    "version_or_year": "4.5",
+    "scores": {
+      "learnability": 6.5,
+      "applicability": 6.0,
+      "sustainability": 8.5
+    }
+  },
+  {
+    "name": "JetBrains IDEs",
+    "version_or_year": "2024.1",
+    "scores": {
+      "learnability": 7.5,
+      "applicability": 9.0,
+      "sustainability": 5.5
+    }
+  }
+]
