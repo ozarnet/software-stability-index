@@ -8,7 +8,7 @@ The goal of SSI is to:
 - Highlight the **hidden risks** of unstable or volatile ecosystems.
 - Encourage maintainers to **track and improve their tools’ long-term reliability**.
 
-This is not just a research exercise. It’s a practical framework designed to:
+This is not just a research exercise, it’s a practical framework designed to:
 
 - Support CI integration (e.g., fail builds on risky dependency upgrades).
 - Inform strategic choices (e.g., React vs. Vue vs. Laravel for a new product).
