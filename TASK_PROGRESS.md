@@ -26,14 +26,14 @@ This file tracks the progress of major development milestones for the Software S
     -   `[v]` Implement PyPI client to fetch package metadata.
     -   `[v]` Implement npm client to fetch package metadata.
     -   `[v]` Implement Packagist client to fetch package metadata.
--   `[-]` **Module: `issue-tracker-scanner`**
-    -   `[ ]` Implement GitHub API client to fetch issue data (backlog, MTTR).
+-   `[v]` **Module: `issue-tracker-scanner`**
+    -   `[v]` Implement GitHub API client to fetch issue data (backlog, MTTR).
 
 ## Milestone 3: Advanced Analysis Modules
 
--   `[ ]` **Module: `release-diff-analyzer`**
-    -   `[ ]` Research AST diffing libraries for Python/Go/Rust.
-    -   `[ ]` Implement prototype for detecting breaking changes between versions.
+-   `[v]` **Module: `release-diff-analyzer`**
+    -   `[v]` Research AST diffing libraries for Python/Go/Rust.
+    -   `[v]` Implement prototype for detecting breaking changes between versions.
 -   `[ ]` **Module: `qa-freshness-auditor`**
     -   `[ ]` Design a prompt test bank for evaluating LLM answer freshness.
 
